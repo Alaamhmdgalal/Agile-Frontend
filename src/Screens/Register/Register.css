@@ -4,13 +4,18 @@
     align-items: center;
 }
 
-.login-title {
+.rctLogo {
+    height: 50px;
+    width: 50px;
+}
+
+.register-title {
     text-align: center;
     color: #0f3a4e;
     padding: 2px;
 }
 
-.login-container {
+.register-container {
     width: 70%;
     margin: 10px auto;
 }
@@ -18,11 +23,6 @@
 .FormTitle {
     margin-top: 10px;
     margin-bottom: 10px;
-}
-
-.rctLogo {
-    height: 50px;
-    width: 50px;
 }
 
 @media (min-width: 992px) {
@@ -33,7 +33,7 @@
         align-items: center;
     }
 
-    .login-container {
+    .register-container {
         width: auto;
     }
 }
@@ -43,5 +43,3 @@
     justify-content: center;
     align-items: center;
 }
-
-/* 0f3a4e */

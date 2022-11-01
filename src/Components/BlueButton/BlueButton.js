@@ -1,10 +1,10 @@
 import React from "react";
 import "./BlueButton.css"
-function BlueButton() {
-    return (
 
+function BlueButton(props) {
+    return (
         <button className="BlueButton-Container">
-            Login
+            {props.text}
         </button>
     )
 }
