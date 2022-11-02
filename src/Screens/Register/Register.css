@@ -18,6 +18,8 @@
 .register-container {
     width: 70%;
     margin: 10px auto;
+    background-color: white;
+    border-radius: 20px;
 }
 
 .FormTitle {
@@ -36,10 +38,17 @@
     .register-container {
         width: auto;
     }
+
+
+    .TwoColumns {
+        display: flex;
+        flex-direction: row;
+    }
 }
 
 .BlueButton {
     display: flex;
     justify-content: center;
     align-items: center;
+    padding-bottom: 15px;
 }

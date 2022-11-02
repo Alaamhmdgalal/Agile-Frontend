@@ -16,16 +16,33 @@ function Register() {
                     <h2 className="register-title">Register</h2>
                 </div>
                 <div className="register-container">
-                    <WhiteContainer>
-                        <TextField label="First Name" />
-                        <TextField label="Last Name" />
-                        <TextField label="Email" />
-                        <TextField label="Password" />
-                        <TextField label="Phone Number" />
-                        <div className="BlueButton">
-                            <BlueButton text="Register" />
-                        </div>
-                    </WhiteContainer>
+                    <div className="TwoColumns">
+                        <WhiteContainer>
+                            <TextField label="First Name" />
+                            <TextField label="Email" type="email" />
+                            <TextField label="Password" type="password" />
+                            <TextField label="Strava Link" />
+
+                            <div className="gender">
+                                <label for="gender" >Gender</label>
+                                <br />
+                                <input type="radio" value="male" id="male" name="gender" />
+                                <label for="male">Male</label>
+
+                                <input type="radio" value="female" id="female" name="gender" />
+                                <label for="female">Female</label>
+                            </div>
+                        </WhiteContainer>
+                        <WhiteContainer>
+                            <TextField label="Last Name" />
+                            <TextField label="Phone" />
+                            <TextField label="Verify Password" type="password" />
+                            <TextField label="Date of Birth" type="date" />
+                        </WhiteContainer>
+                    </div>
+                    <div className="BlueButton">
+                        <BlueButton text="Register" />
+                    </div>
                 </div>
             </div>
         </div>
